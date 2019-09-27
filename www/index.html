@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/jquery-3.4.1.min.js"></script>
+    <script src="components/loader.js"></script>
+    <script src="components/acao.js"></script>
+
+
+
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+        <h1>Filtros</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <button id="camera" class="btn btn-primary btn-block">Camera</button>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <img class="img-responsive" id="imagem">
+    <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="opacidade">Opacidade:</label>
+        <input type="range" id="opacidade"  min="0" max="100" value="0">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="saturacao">Saturação:</label>
+        <input type="range" id="saturacao" min="0" max="100" value="50">
+        </div>
+      </div>
+    </div>
+    <br><br>
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="escala_cinza">Escala de cinza</label>
+        <input type="range" id="escala_cinza" value="0">
+        </div>
+      </div>
+    </div>
+    <br><br>
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="blur">Desfoque:</label>
+        <input type="range" id="blur" value="0">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    
+    
+  </body>
+</html>
